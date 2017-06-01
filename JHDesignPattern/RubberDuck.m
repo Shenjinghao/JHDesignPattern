@@ -18,6 +18,7 @@
 {
     self = [super init];
     if (self) {
+        
         self.flyBehaviorDelegate = self;
         self.quackBehaviorDelegate = self;
     }

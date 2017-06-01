@@ -26,9 +26,13 @@
     return self;
 }
 
-- (void)fly {
-    NSLog(@"鸭鸣器：我不会飞");
+- (void)performFly {
+    if (_delegate && [_delegate respondsToSelector:@selector(duckCallFly)]) {
+        [_delegate duckCallFly];
+    }
 }
+
+
 
 - (void)quack {
     NSLog(@"鸭鸣器：嘎嘎叫");

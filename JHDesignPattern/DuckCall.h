@@ -8,9 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol DuckCallDelegate <NSObject>
+
+- (void)duckCallFly;
+
+@end
+
 /**
- 鸭鸣器，
+ 鸭鸣器，不是继承自duck
  */
 @interface DuckCall : NSObject
+
+@property (nonatomic, weak) id<DuckCallDelegate> delegate;
+
+- (void)performFly;
 
 @end

@@ -12,7 +12,7 @@
 #import "RubberDuck.h"
 #import "DuckCall.h"
 
-@interface ViewController ()
+@interface ViewController ()<DuckCallDelegate>
 
 @end
 
@@ -31,12 +31,22 @@
     [mallardDuck performFly];
     [mallardDuck performQuack];
     
-    Duck *rubberDuck = [[RubberDuck alloc] init];
+    //可以进行选择或重新修改
+    RubberDuck *rubberDuck = [[RubberDuck alloc] init];
+    rubberDuck.flyBehaviorDelegate = rubberDuck.duck1;
     [rubberDuck performFly];
     [rubberDuck performQuack];
     
+    //不使用继承实现
     DuckCall *duckCall = [[DuckCall alloc] init];
+    duckCall.delegate = self;
+    [duckCall performFly];
     
+    
+}
+
+- (void)duckCallFly {
+    NSLog(@"鸭鸣器：我不会飞");
 }
 
 

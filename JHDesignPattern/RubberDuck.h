@@ -13,4 +13,8 @@
  */
 @interface RubberDuck : Duck
 
+@property (nonatomic, strong) RubberDuck *duck1;
+
+@property (nonatomic, strong) RubberDuck *duck2;
+
 @end
