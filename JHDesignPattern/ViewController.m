@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "Duck.h"
+#import "MallardDuck.h"
+#import "RubberDuck.h"
 
 @interface ViewController ()
 
@@ -16,7 +19,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //针对接口编程
+    [self programToAnInterface];
+}
+
+- (void)programToAnInterface {
+    //此处用到了继承和协议protocol，实现了类似多态的效果，
+    Duck *mallardDuck = [[MallardDuck alloc] init];
+    [mallardDuck performFly];
+    [mallardDuck performQuack];
+    
+    Duck *rubberDuck = [[RubberDuck alloc] init];
+    [rubberDuck performFly];
+    [rubberDuck performQuack];
 }
 
 
