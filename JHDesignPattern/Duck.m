@@ -30,11 +30,17 @@
     if (_flyBehaviorDelegate && [_flyBehaviorDelegate respondsToSelector:@selector(fly)]) {
         [_flyBehaviorDelegate fly];
     }
+    if (_behaviorDelegate && [_behaviorDelegate respondsToSelector:@selector(fly)]) {
+        [_behaviorDelegate fly];
+    }
 }
 
 - (void)performQuack {
     if (_quackBehaviorDelegate && [_quackBehaviorDelegate respondsToSelector:@selector(quack)]) {
         [_quackBehaviorDelegate quack];
+    }
+    if (_behaviorDelegate && [_behaviorDelegate respondsToSelector:@selector(quack)]) {
+        [_behaviorDelegate quack];
     }
 }
 @end

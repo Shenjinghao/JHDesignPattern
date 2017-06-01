@@ -10,6 +10,7 @@
 #import "Duck.h"
 #import "MallardDuck.h"
 #import "RubberDuck.h"
+#import "DuckCall.h"
 
 @interface ViewController ()
 
@@ -33,6 +34,9 @@
     Duck *rubberDuck = [[RubberDuck alloc] init];
     [rubberDuck performFly];
     [rubberDuck performQuack];
+    
+    DuckCall *duckCall = [[DuckCall alloc] init];
+    
 }
 
 
