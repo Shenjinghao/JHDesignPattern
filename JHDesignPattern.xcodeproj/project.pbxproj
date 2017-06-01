@@ -16,11 +16,6 @@
 		A8526C661EDEE91800B8388B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8526C641EDEE91800B8388B /* LaunchScreen.storyboard */; };
 		A8526C711EDEE91900B8388B /* JHDesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C701EDEE91900B8388B /* JHDesignPatternTests.m */; };
 		A8526C7C1EDEE91900B8388B /* JHDesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C7B1EDEE91900B8388B /* JHDesignPatternUITests.m */; };
-		A8526C8C1EDEEBDB00B8388B /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C8B1EDEEBDB00B8388B /* Duck.m */; };
-		A8526C8F1EDEEC3700B8388B /* FlyBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C8E1EDEEC3700B8388B /* FlyBehavior.m */; };
-		A8526C921EDEEC7200B8388B /* QuackBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C911EDEEC7200B8388B /* QuackBehavior.m */; };
-		A8526C951EDFF79800B8388B /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C941EDFF79800B8388B /* MallardDuck.m */; };
-		A8526C981EE0002300B8388B /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C971EE0002300B8388B /* RubberDuck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,16 +53,6 @@
 		A8526C771EDEE91900B8388B /* JHDesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHDesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8526C7B1EDEE91900B8388B /* JHDesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDesignPatternUITests.m; sourceTree = "<group>"; };
 		A8526C7D1EDEE91900B8388B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8526C8A1EDEEBDB00B8388B /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
-		A8526C8B1EDEEBDB00B8388B /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
-		A8526C8D1EDEEC3700B8388B /* FlyBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
-		A8526C8E1EDEEC3700B8388B /* FlyBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyBehavior.m; sourceTree = "<group>"; };
-		A8526C901EDEEC7200B8388B /* QuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
-		A8526C911EDEEC7200B8388B /* QuackBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuackBehavior.m; sourceTree = "<group>"; };
-		A8526C931EDFF79800B8388B /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
-		A8526C941EDFF79800B8388B /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
-		A8526C961EE0002300B8388B /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
-		A8526C971EE0002300B8388B /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +103,6 @@
 		A8526C521EDEE91800B8388B /* JHDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				A8526C891EDEEB5C00B8388B /* 针对接口编程 */,
 				A8526C561EDEE91800B8388B /* AppDelegate.h */,
 				A8526C571EDEE91800B8388B /* AppDelegate.m */,
 				A8526C591EDEE91800B8388B /* ViewController.h */,
@@ -157,23 +141,6 @@
 				A8526C7D1EDEE91900B8388B /* Info.plist */,
 			);
 			path = JHDesignPatternUITests;
-			sourceTree = "<group>";
-		};
-		A8526C891EDEEB5C00B8388B /* 针对接口编程 */ = {
-			isa = PBXGroup;
-			children = (
-				A8526C8A1EDEEBDB00B8388B /* Duck.h */,
-				A8526C8B1EDEEBDB00B8388B /* Duck.m */,
-				A8526C931EDFF79800B8388B /* MallardDuck.h */,
-				A8526C941EDFF79800B8388B /* MallardDuck.m */,
-				A8526C961EE0002300B8388B /* RubberDuck.h */,
-				A8526C971EE0002300B8388B /* RubberDuck.m */,
-				A8526C8D1EDEEC3700B8388B /* FlyBehavior.h */,
-				A8526C8E1EDEEC3700B8388B /* FlyBehavior.m */,
-				A8526C901EDEEC7200B8388B /* QuackBehavior.h */,
-				A8526C911EDEEC7200B8388B /* QuackBehavior.m */,
-			);
-			name = "针对接口编程";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,15 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8526C8C1EDEEBDB00B8388B /* Duck.m in Sources */,
 				A8526C5B1EDEE91800B8388B /* ViewController.m in Sources */,
 				A8526C581EDEE91800B8388B /* AppDelegate.m in Sources */,
 				A8526C611EDEE91800B8388B /* JHDesignPattern.xcdatamodeld in Sources */,
-				A8526C951EDFF79800B8388B /* MallardDuck.m in Sources */,
 				A8526C551EDEE91800B8388B /* main.m in Sources */,
-				A8526C981EE0002300B8388B /* RubberDuck.m in Sources */,
-				A8526C921EDEEC7200B8388B /* QuackBehavior.m in Sources */,
-				A8526C8F1EDEEC3700B8388B /* FlyBehavior.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
