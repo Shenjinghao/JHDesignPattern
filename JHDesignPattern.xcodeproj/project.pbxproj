@@ -71,6 +71,7 @@
 		A8526C971EE0002300B8388B /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
 		A8526C991EE0082C00B8388B /* DuckCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuckCall.h; sourceTree = "<group>"; };
 		A8526C9A1EE0082C00B8388B /* DuckCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuckCall.m; sourceTree = "<group>"; };
+		A87792B71EE0110600CBEDB8 /* TheStrategyPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheStrategyPattern.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +122,7 @@
 		A8526C521EDEE91800B8388B /* JHDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				A8526C891EDEEB5C00B8388B /* 针对接口编程 */,
+				A8526C891EDEEB5C00B8388B /* 策略模式 */,
 				A8526C561EDEE91800B8388B /* AppDelegate.h */,
 				A8526C571EDEE91800B8388B /* AppDelegate.m */,
 				A8526C591EDEE91800B8388B /* ViewController.h */,
@@ -162,9 +163,10 @@
 			path = JHDesignPatternUITests;
 			sourceTree = "<group>";
 		};
-		A8526C891EDEEB5C00B8388B /* 针对接口编程 */ = {
+		A8526C891EDEEB5C00B8388B /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A87792B71EE0110600CBEDB8 /* TheStrategyPattern.h */,
 				A8526C8A1EDEEBDB00B8388B /* Duck.h */,
 				A8526C8B1EDEEBDB00B8388B /* Duck.m */,
 				A8526C931EDFF79800B8388B /* MallardDuck.h */,
@@ -178,7 +180,7 @@
 				A8526C991EE0082C00B8388B /* DuckCall.h */,
 				A8526C9A1EE0082C00B8388B /* DuckCall.m */,
 			);
-			name = "针对接口编程";
+			name = "策略模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
