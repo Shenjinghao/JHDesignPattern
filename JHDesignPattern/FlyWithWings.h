@@ -1,5 +1,5 @@
 //
-//  DuckCall.h
+//  FlyWithWings.h
 //  JHDesignPattern
 //
 //  Created by Shenjinghao on 2017/6/2.
@@ -10,13 +10,8 @@
 #import "FlyBehaviorInterface.h"
 
 /**
- 不是鸭子，胜似鸭子
+ 翅膀飞
  */
-@interface DuckCall : NSObject<FlyBehaviorInterface>
-
-@property (nonatomic, weak) id<FlyBehaviorInterface> flyBehaviorDelegate;
-
-- (void)duckCallFly;
-
+@interface FlyWithWings : NSObject<FlyBehaviorInterface>
 
 @end

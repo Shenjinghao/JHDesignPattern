@@ -11,8 +11,11 @@
 #import "MallardDuck.h"
 #import "RubberDuck.h"
 #import "DuckCall.h"
+#import "FlyWithNoWay.h"
 
-@interface ViewController ()<DuckCallDelegate>
+@interface ViewController ()
+
+@property (nonatomic, strong) Duck *duck;
 
 @end
 
@@ -21,33 +24,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //针对接口编程
+    //策略模式
     [self programToAnInterface];
 }
 
 - (void)programToAnInterface {
-    //此处用到了继承和协议protocol，实现了类似多态的效果，
+    //此处用到了继承和协议protocol
     Duck *mallardDuck = [[MallardDuck alloc] init];
     [mallardDuck performFly];
-    [mallardDuck performQuack];
     
     //可以进行选择或重新修改
-    RubberDuck *rubberDuck = [[RubberDuck alloc] init];
-    rubberDuck.flyBehaviorDelegate = rubberDuck.duck1;
+    [mallardDuck setFlyBehaviorDelegate:[[FlyWithNoWay alloc] init]];
+    [mallardDuck performFly];
+    
+    Duck *rubberDuck = [[RubberDuck alloc] init];
     [rubberDuck performFly];
-    [rubberDuck performQuack];
     
     //不使用继承实现
     DuckCall *duckCall = [[DuckCall alloc] init];
-    duckCall.delegate = self;
-    [duckCall performFly];
-    
+    duckCall.flyBehaviorDelegate = (id)self;
+    [duckCall duckCallFly];
     
 }
 
-- (void)duckCallFly {
-    NSLog(@"鸭鸣器：我不会飞");
+-(void)fly
+{
+    NSLog(@"鸭鸣器：可能会飞!");
 }
+
 
 
 - (void)didReceiveMemoryWarning {

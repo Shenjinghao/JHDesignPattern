@@ -2,7 +2,7 @@
 //  RubberDuck.h
 //  JHDesignPattern
 //
-//  Created by Shenjinghao on 2017/6/1.
+//  Created by Shenjinghao on 2017/6/2.
 //  Copyright © 2017年 SJH. All rights reserved.
 //
 
@@ -12,9 +12,5 @@
  橡皮鸭
  */
 @interface RubberDuck : Duck
-
-@property (nonatomic, strong) RubberDuck *duck1;
-
-@property (nonatomic, strong) RubberDuck *duck2;
 
 @end

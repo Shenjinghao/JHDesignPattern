@@ -1,16 +1,18 @@
 //
-//  MallarDuck.h
+//  FlyWithNoWay.m
 //  JHDesignPattern
 //
 //  Created by Shenjinghao on 2017/6/2.
 //  Copyright © 2017年 SJH. All rights reserved.
 //
 
-#import "Duck.h"
+#import "FlyWithNoWay.h"
 
-/**
- 绿头鸭
- */
-@interface MallardDuck : Duck
+@implementation FlyWithNoWay
+
+-(void)fly
+{
+    NSLog(@"不能飞!");
+}
 
 @end
