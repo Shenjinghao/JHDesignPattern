@@ -138,8 +138,8 @@
 		A8526C521EDEE91800B8388B /* JHDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				A87792DC1EE5770700CBEDB8 /* 代理模式 */,
 				A87792D41EE18E1700CBEDB8 /* 观察者模式 */,
+				A87792DC1EE5770700CBEDB8 /* 代理模式 */,
 				A8526C891EDEEB5C00B8388B /* 策略模式 */,
 				A8526C561EDEE91800B8388B /* AppDelegate.h */,
 				A8526C571EDEE91800B8388B /* AppDelegate.m */,
