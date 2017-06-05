@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "JHCollectionViewCell.h"
 #import "JHStrategyViewController.h"
+#import "JHDelegateViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -91,7 +92,8 @@ static NSString *const header = @"collectionHeader";
         }
             break;
         case 1: {
-            
+            JHDelegateViewController *controller = [[JHDelegateViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
         }
             
         default:
