@@ -23,6 +23,8 @@
 		A87792CA1EE111BD00CBEDB8 /* FlyWithRocketPower.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C91EE111BD00CBEDB8 /* FlyWithRocketPower.m */; };
 		A87792D01EE1161B00CBEDB8 /* DuckCall.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792CF1EE1161B00CBEDB8 /* DuckCall.m */; };
 		A87792D31EE1437200CBEDB8 /* FlyWithNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792D21EE1437200CBEDB8 /* FlyWithNoWay.m */; };
+		A87792D71EE54F6D00CBEDB8 /* JHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792D61EE54F6D00CBEDB8 /* JHCollectionViewCell.m */; };
+		A87792DA1EE562B800CBEDB8 /* JHStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792D91EE562B800CBEDB8 /* JHStrategyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,10 @@
 		A87792CF1EE1161B00CBEDB8 /* DuckCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuckCall.m; sourceTree = "<group>"; };
 		A87792D11EE1437200CBEDB8 /* FlyWithNoWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWithNoWay.h; sourceTree = "<group>"; };
 		A87792D21EE1437200CBEDB8 /* FlyWithNoWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWithNoWay.m; sourceTree = "<group>"; };
+		A87792D51EE54F6D00CBEDB8 /* JHCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewCell.h; sourceTree = "<group>"; };
+		A87792D61EE54F6D00CBEDB8 /* JHCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewCell.m; sourceTree = "<group>"; };
+		A87792D81EE562B800CBEDB8 /* JHStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHStrategyViewController.h; sourceTree = "<group>"; };
+		A87792D91EE562B800CBEDB8 /* JHStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHStrategyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +132,14 @@
 		A8526C521EDEE91800B8388B /* JHDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				A87792D41EE18E1700CBEDB8 /* 观察者模式 */,
 				A8526C891EDEEB5C00B8388B /* 策略模式 */,
 				A8526C561EDEE91800B8388B /* AppDelegate.h */,
 				A8526C571EDEE91800B8388B /* AppDelegate.m */,
 				A8526C591EDEE91800B8388B /* ViewController.h */,
 				A8526C5A1EDEE91800B8388B /* ViewController.m */,
+				A87792D51EE54F6D00CBEDB8 /* JHCollectionViewCell.h */,
+				A87792D61EE54F6D00CBEDB8 /* JHCollectionViewCell.m */,
 				A8526C5C1EDEE91800B8388B /* Main.storyboard */,
 				A8526C621EDEE91800B8388B /* Assets.xcassets */,
 				A8526C641EDEE91800B8388B /* LaunchScreen.storyboard */,
@@ -186,8 +195,17 @@
 				A87792C31EE110BC00CBEDB8 /* RubberDuck.m */,
 				A87792CE1EE1161B00CBEDB8 /* DuckCall.h */,
 				A87792CF1EE1161B00CBEDB8 /* DuckCall.m */,
+				A87792D81EE562B800CBEDB8 /* JHStrategyViewController.h */,
+				A87792D91EE562B800CBEDB8 /* JHStrategyViewController.m */,
 			);
 			name = "策略模式";
+			sourceTree = "<group>";
+		};
+		A87792D41EE18E1700CBEDB8 /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "观察者模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +347,8 @@
 				A87792C11EE1108800CBEDB8 /* MallardDuck.m in Sources */,
 				A8526C5B1EDEE91800B8388B /* ViewController.m in Sources */,
 				A87792D31EE1437200CBEDB8 /* FlyWithNoWay.m in Sources */,
+				A87792DA1EE562B800CBEDB8 /* JHStrategyViewController.m in Sources */,
+				A87792D71EE54F6D00CBEDB8 /* JHCollectionViewCell.m in Sources */,
 				A87792CA1EE111BD00CBEDB8 /* FlyWithRocketPower.m in Sources */,
 				A8526C581EDEE91800B8388B /* AppDelegate.m in Sources */,
 				A8526C611EDEE91800B8388B /* JHDesignPattern.xcdatamodeld in Sources */,
