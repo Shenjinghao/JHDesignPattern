@@ -139,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				A87792D41EE18E1700CBEDB8 /* 观察者模式 */,
+				A87792E51EE65D5400CBEDB8 /* 单例模式 */,
 				A87792DC1EE5770700CBEDB8 /* 代理模式 */,
 				A8526C891EDEEB5C00B8388B /* 策略模式 */,
 				A8526C561EDEE91800B8388B /* AppDelegate.h */,
@@ -224,6 +225,13 @@
 				A87792E31EE5784E00CBEDB8 /* JHTableViewDelegate.m */,
 			);
 			name = "代理模式";
+			sourceTree = "<group>";
+		};
+		A87792E51EE65D5400CBEDB8 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "单例模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
