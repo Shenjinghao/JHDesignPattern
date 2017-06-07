@@ -18,6 +18,9 @@
 		A8526C7C1EDEE91900B8388B /* JHDesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C7B1EDEE91900B8388B /* JHDesignPatternUITests.m */; };
 		A854CF9A1EE7A57C00885BA6 /* JHSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CF991EE7A57C00885BA6 /* JHSingletonViewController.m */; };
 		A854CF9D1EE7AC5B00885BA6 /* JHSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CF9C1EE7AC5B00885BA6 /* JHSingleton.m */; };
+		A854CFA01EE7F4A500885BA6 /* JHObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CF9F1EE7F4A500885BA6 /* JHObserverViewController.m */; };
+		A854CFA41EE7F5DF00885BA6 /* JHSubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CFA31EE7F5DF00885BA6 /* JHSubscriptionServiceCenter.m */; };
+		A854CFAA1EE8307900885BA6 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CFA91EE8307900885BA6 /* Customer.m */; };
 		A87792BB1EE1100100CBEDB8 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792BA1EE1100100CBEDB8 /* Duck.m */; };
 		A87792C11EE1108800CBEDB8 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C01EE1108800CBEDB8 /* MallardDuck.m */; };
 		A87792C41EE110BC00CBEDB8 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C31EE110BC00CBEDB8 /* RubberDuck.m */; };
@@ -71,6 +74,13 @@
 		A854CF991EE7A57C00885BA6 /* JHSingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSingletonViewController.m; sourceTree = "<group>"; };
 		A854CF9B1EE7AC5B00885BA6 /* JHSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSingleton.h; sourceTree = "<group>"; };
 		A854CF9C1EE7AC5B00885BA6 /* JHSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSingleton.m; sourceTree = "<group>"; };
+		A854CF9E1EE7F4A500885BA6 /* JHObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHObserverViewController.h; sourceTree = "<group>"; };
+		A854CF9F1EE7F4A500885BA6 /* JHObserverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHObserverViewController.m; sourceTree = "<group>"; };
+		A854CFA11EE7F5A900885BA6 /* JHSubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
+		A854CFA21EE7F5DF00885BA6 /* JHSubscriptionServiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSubscriptionServiceCenter.h; sourceTree = "<group>"; };
+		A854CFA31EE7F5DF00885BA6 /* JHSubscriptionServiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSubscriptionServiceCenter.m; sourceTree = "<group>"; };
+		A854CFA81EE8307900885BA6 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		A854CFA91EE8307900885BA6 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 		A87792B71EE0110600CBEDB8 /* TheStrategyPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheStrategyPattern.h; sourceTree = "<group>"; };
 		A87792B81EE10FD800CBEDB8 /* FlyBehaviorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehaviorInterface.h; sourceTree = "<group>"; };
 		A87792B91EE1100100CBEDB8 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
@@ -219,6 +229,13 @@
 		A87792D41EE18E1700CBEDB8 /* 观察者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A854CFA11EE7F5A900885BA6 /* JHSubscriptionServiceCenterProtocol.h */,
+				A854CF9E1EE7F4A500885BA6 /* JHObserverViewController.h */,
+				A854CF9F1EE7F4A500885BA6 /* JHObserverViewController.m */,
+				A854CFA21EE7F5DF00885BA6 /* JHSubscriptionServiceCenter.h */,
+				A854CFA31EE7F5DF00885BA6 /* JHSubscriptionServiceCenter.m */,
+				A854CFA81EE8307900885BA6 /* Customer.h */,
+				A854CFA91EE8307900885BA6 /* Customer.m */,
 			);
 			name = "观察者模式";
 			sourceTree = "<group>";
@@ -386,9 +403,11 @@
 				A87792C11EE1108800CBEDB8 /* MallardDuck.m in Sources */,
 				A8526C5B1EDEE91800B8388B /* ViewController.m in Sources */,
 				A87792D31EE1437200CBEDB8 /* FlyWithNoWay.m in Sources */,
+				A854CFA41EE7F5DF00885BA6 /* JHSubscriptionServiceCenter.m in Sources */,
 				A87792DA1EE562B800CBEDB8 /* JHStrategyViewController.m in Sources */,
 				A87792D71EE54F6D00CBEDB8 /* JHCollectionViewCell.m in Sources */,
 				A87792CA1EE111BD00CBEDB8 /* FlyWithRocketPower.m in Sources */,
+				A854CFA01EE7F4A500885BA6 /* JHObserverViewController.m in Sources */,
 				A8526C581EDEE91800B8388B /* AppDelegate.m in Sources */,
 				A8526C611EDEE91800B8388B /* JHDesignPattern.xcdatamodeld in Sources */,
 				A87792E01EE5775E00CBEDB8 /* JHDelegateViewController.m in Sources */,
@@ -396,6 +415,7 @@
 				A87792D01EE1161B00CBEDB8 /* DuckCall.m in Sources */,
 				A854CF9D1EE7AC5B00885BA6 /* JHSingleton.m in Sources */,
 				A8526C551EDEE91800B8388B /* main.m in Sources */,
+				A854CFAA1EE8307900885BA6 /* Customer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

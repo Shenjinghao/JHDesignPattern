@@ -11,6 +11,7 @@
 #import "JHStrategyViewController.h"
 #import "JHDelegateViewController.h"
 #import "JHSingletonViewController.h"
+#import "JHObserverViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -102,7 +103,11 @@ static NSString *const header = @"collectionHeader";
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
-            
+        case 3: {
+            JHObserverViewController *controller = [[JHObserverViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
         default:
             break;
     }
