@@ -1,17 +1,13 @@
 //
-//  MallardDuck.m
+//  MallarDuck.m
 //  JHDesignPattern
 //
-//  Created by Shenjinghao on 2017/6/1.
+//  Created by Shenjinghao on 2017/6/2.
 //  Copyright © 2017年 SJH. All rights reserved.
 //
 
 #import "MallardDuck.h"
-#import "Duck.h"
-
-@interface MallardDuck ()<FlyBehaviorDelegate, QuackBehaviorDelegate>
-
-@end
+#import "FlyWithWings.h"
 
 @implementation MallardDuck
 
@@ -19,19 +15,9 @@
 {
     self = [super init];
     if (self) {
-        self.flyBehaviorDelegate = self;
-        self.quackBehaviorDelegate = self;
+        flyBehaviorDelegate = [[FlyWithWings alloc] init];
     }
     return self;
 }
-
-- (void)fly {
-    NSLog(@"绿头鸭：我会飞");
-}
-
-- (void)quack {
-    NSLog(@"绿头鸭：嘎嘎叫");
-}
-
 
 @end

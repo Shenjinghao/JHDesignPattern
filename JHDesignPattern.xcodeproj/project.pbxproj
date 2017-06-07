@@ -16,12 +16,19 @@
 		A8526C661EDEE91800B8388B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8526C641EDEE91800B8388B /* LaunchScreen.storyboard */; };
 		A8526C711EDEE91900B8388B /* JHDesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C701EDEE91900B8388B /* JHDesignPatternTests.m */; };
 		A8526C7C1EDEE91900B8388B /* JHDesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C7B1EDEE91900B8388B /* JHDesignPatternUITests.m */; };
-		A8526C8C1EDEEBDB00B8388B /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C8B1EDEEBDB00B8388B /* Duck.m */; };
-		A8526C8F1EDEEC3700B8388B /* FlyBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C8E1EDEEC3700B8388B /* FlyBehavior.m */; };
-		A8526C921EDEEC7200B8388B /* QuackBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C911EDEEC7200B8388B /* QuackBehavior.m */; };
-		A8526C951EDFF79800B8388B /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C941EDFF79800B8388B /* MallardDuck.m */; };
-		A8526C981EE0002300B8388B /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C971EE0002300B8388B /* RubberDuck.m */; };
-		A8526C9B1EE0082C00B8388B /* DuckCall.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C9A1EE0082C00B8388B /* DuckCall.m */; };
+		A854CF9A1EE7A57C00885BA6 /* JHSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CF991EE7A57C00885BA6 /* JHSingletonViewController.m */; };
+		A854CF9D1EE7AC5B00885BA6 /* JHSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CF9C1EE7AC5B00885BA6 /* JHSingleton.m */; };
+		A87792BB1EE1100100CBEDB8 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792BA1EE1100100CBEDB8 /* Duck.m */; };
+		A87792C11EE1108800CBEDB8 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C01EE1108800CBEDB8 /* MallardDuck.m */; };
+		A87792C41EE110BC00CBEDB8 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C31EE110BC00CBEDB8 /* RubberDuck.m */; };
+		A87792C71EE111A000CBEDB8 /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C61EE111A000CBEDB8 /* FlyWithWings.m */; };
+		A87792CA1EE111BD00CBEDB8 /* FlyWithRocketPower.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C91EE111BD00CBEDB8 /* FlyWithRocketPower.m */; };
+		A87792D01EE1161B00CBEDB8 /* DuckCall.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792CF1EE1161B00CBEDB8 /* DuckCall.m */; };
+		A87792D31EE1437200CBEDB8 /* FlyWithNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792D21EE1437200CBEDB8 /* FlyWithNoWay.m */; };
+		A87792D71EE54F6D00CBEDB8 /* JHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792D61EE54F6D00CBEDB8 /* JHCollectionViewCell.m */; };
+		A87792DA1EE562B800CBEDB8 /* JHStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792D91EE562B800CBEDB8 /* JHStrategyViewController.m */; };
+		A87792E01EE5775E00CBEDB8 /* JHDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792DE1EE5775E00CBEDB8 /* JHDelegateViewController.m */; };
+		A87792E41EE5784E00CBEDB8 /* JHTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792E31EE5784E00CBEDB8 /* JHTableViewDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,19 +66,35 @@
 		A8526C771EDEE91900B8388B /* JHDesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHDesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8526C7B1EDEE91900B8388B /* JHDesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDesignPatternUITests.m; sourceTree = "<group>"; };
 		A8526C7D1EDEE91900B8388B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8526C8A1EDEEBDB00B8388B /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
-		A8526C8B1EDEEBDB00B8388B /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
-		A8526C8D1EDEEC3700B8388B /* FlyBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
-		A8526C8E1EDEEC3700B8388B /* FlyBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyBehavior.m; sourceTree = "<group>"; };
-		A8526C901EDEEC7200B8388B /* QuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
-		A8526C911EDEEC7200B8388B /* QuackBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuackBehavior.m; sourceTree = "<group>"; };
-		A8526C931EDFF79800B8388B /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
-		A8526C941EDFF79800B8388B /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
-		A8526C961EE0002300B8388B /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
-		A8526C971EE0002300B8388B /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
-		A8526C991EE0082C00B8388B /* DuckCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuckCall.h; sourceTree = "<group>"; };
-		A8526C9A1EE0082C00B8388B /* DuckCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuckCall.m; sourceTree = "<group>"; };
+		A854CF971EE7A20F00885BA6 /* SingletonPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPattern.h; sourceTree = "<group>"; };
+		A854CF981EE7A57C00885BA6 /* JHSingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSingletonViewController.h; sourceTree = "<group>"; };
+		A854CF991EE7A57C00885BA6 /* JHSingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSingletonViewController.m; sourceTree = "<group>"; };
+		A854CF9B1EE7AC5B00885BA6 /* JHSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSingleton.h; sourceTree = "<group>"; };
+		A854CF9C1EE7AC5B00885BA6 /* JHSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSingleton.m; sourceTree = "<group>"; };
 		A87792B71EE0110600CBEDB8 /* TheStrategyPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheStrategyPattern.h; sourceTree = "<group>"; };
+		A87792B81EE10FD800CBEDB8 /* FlyBehaviorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehaviorInterface.h; sourceTree = "<group>"; };
+		A87792B91EE1100100CBEDB8 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		A87792BA1EE1100100CBEDB8 /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		A87792BF1EE1108800CBEDB8 /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		A87792C01EE1108800CBEDB8 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		A87792C21EE110BC00CBEDB8 /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
+		A87792C31EE110BC00CBEDB8 /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
+		A87792C51EE111A000CBEDB8 /* FlyWithWings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWithWings.h; sourceTree = "<group>"; };
+		A87792C61EE111A000CBEDB8 /* FlyWithWings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWithWings.m; sourceTree = "<group>"; };
+		A87792C81EE111BD00CBEDB8 /* FlyWithRocketPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWithRocketPower.h; sourceTree = "<group>"; };
+		A87792C91EE111BD00CBEDB8 /* FlyWithRocketPower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWithRocketPower.m; sourceTree = "<group>"; };
+		A87792CE1EE1161B00CBEDB8 /* DuckCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuckCall.h; sourceTree = "<group>"; };
+		A87792CF1EE1161B00CBEDB8 /* DuckCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuckCall.m; sourceTree = "<group>"; };
+		A87792D11EE1437200CBEDB8 /* FlyWithNoWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWithNoWay.h; sourceTree = "<group>"; };
+		A87792D21EE1437200CBEDB8 /* FlyWithNoWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWithNoWay.m; sourceTree = "<group>"; };
+		A87792D51EE54F6D00CBEDB8 /* JHCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewCell.h; sourceTree = "<group>"; };
+		A87792D61EE54F6D00CBEDB8 /* JHCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewCell.m; sourceTree = "<group>"; };
+		A87792D81EE562B800CBEDB8 /* JHStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHStrategyViewController.h; sourceTree = "<group>"; };
+		A87792D91EE562B800CBEDB8 /* JHStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHStrategyViewController.m; sourceTree = "<group>"; };
+		A87792DD1EE5775E00CBEDB8 /* JHDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDelegateViewController.h; sourceTree = "<group>"; };
+		A87792DE1EE5775E00CBEDB8 /* JHDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDelegateViewController.m; sourceTree = "<group>"; };
+		A87792E21EE5784E00CBEDB8 /* JHTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTableViewDelegate.h; sourceTree = "<group>"; };
+		A87792E31EE5784E00CBEDB8 /* JHTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTableViewDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,11 +145,16 @@
 		A8526C521EDEE91800B8388B /* JHDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				A87792D41EE18E1700CBEDB8 /* 观察者模式 */,
+				A87792E51EE65D5400CBEDB8 /* 单例模式 */,
+				A87792DC1EE5770700CBEDB8 /* 代理模式 */,
 				A8526C891EDEEB5C00B8388B /* 策略模式 */,
 				A8526C561EDEE91800B8388B /* AppDelegate.h */,
 				A8526C571EDEE91800B8388B /* AppDelegate.m */,
 				A8526C591EDEE91800B8388B /* ViewController.h */,
 				A8526C5A1EDEE91800B8388B /* ViewController.m */,
+				A87792D51EE54F6D00CBEDB8 /* JHCollectionViewCell.h */,
+				A87792D61EE54F6D00CBEDB8 /* JHCollectionViewCell.m */,
 				A8526C5C1EDEE91800B8388B /* Main.storyboard */,
 				A8526C621EDEE91800B8388B /* Assets.xcassets */,
 				A8526C641EDEE91800B8388B /* LaunchScreen.storyboard */,
@@ -167,20 +195,55 @@
 			isa = PBXGroup;
 			children = (
 				A87792B71EE0110600CBEDB8 /* TheStrategyPattern.h */,
-				A8526C8A1EDEEBDB00B8388B /* Duck.h */,
-				A8526C8B1EDEEBDB00B8388B /* Duck.m */,
-				A8526C931EDFF79800B8388B /* MallardDuck.h */,
-				A8526C941EDFF79800B8388B /* MallardDuck.m */,
-				A8526C961EE0002300B8388B /* RubberDuck.h */,
-				A8526C971EE0002300B8388B /* RubberDuck.m */,
-				A8526C8D1EDEEC3700B8388B /* FlyBehavior.h */,
-				A8526C8E1EDEEC3700B8388B /* FlyBehavior.m */,
-				A8526C901EDEEC7200B8388B /* QuackBehavior.h */,
-				A8526C911EDEEC7200B8388B /* QuackBehavior.m */,
-				A8526C991EE0082C00B8388B /* DuckCall.h */,
-				A8526C9A1EE0082C00B8388B /* DuckCall.m */,
+				A87792B81EE10FD800CBEDB8 /* FlyBehaviorInterface.h */,
+				A87792C51EE111A000CBEDB8 /* FlyWithWings.h */,
+				A87792C61EE111A000CBEDB8 /* FlyWithWings.m */,
+				A87792C81EE111BD00CBEDB8 /* FlyWithRocketPower.h */,
+				A87792C91EE111BD00CBEDB8 /* FlyWithRocketPower.m */,
+				A87792B91EE1100100CBEDB8 /* Duck.h */,
+				A87792BA1EE1100100CBEDB8 /* Duck.m */,
+				A87792D11EE1437200CBEDB8 /* FlyWithNoWay.h */,
+				A87792D21EE1437200CBEDB8 /* FlyWithNoWay.m */,
+				A87792BF1EE1108800CBEDB8 /* MallardDuck.h */,
+				A87792C01EE1108800CBEDB8 /* MallardDuck.m */,
+				A87792C21EE110BC00CBEDB8 /* RubberDuck.h */,
+				A87792C31EE110BC00CBEDB8 /* RubberDuck.m */,
+				A87792CE1EE1161B00CBEDB8 /* DuckCall.h */,
+				A87792CF1EE1161B00CBEDB8 /* DuckCall.m */,
+				A87792D81EE562B800CBEDB8 /* JHStrategyViewController.h */,
+				A87792D91EE562B800CBEDB8 /* JHStrategyViewController.m */,
 			);
 			name = "策略模式";
+			sourceTree = "<group>";
+		};
+		A87792D41EE18E1700CBEDB8 /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "观察者模式";
+			sourceTree = "<group>";
+		};
+		A87792DC1EE5770700CBEDB8 /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A87792DD1EE5775E00CBEDB8 /* JHDelegateViewController.h */,
+				A87792DE1EE5775E00CBEDB8 /* JHDelegateViewController.m */,
+				A87792E21EE5784E00CBEDB8 /* JHTableViewDelegate.h */,
+				A87792E31EE5784E00CBEDB8 /* JHTableViewDelegate.m */,
+			);
+			name = "代理模式";
+			sourceTree = "<group>";
+		};
+		A87792E51EE65D5400CBEDB8 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A854CF971EE7A20F00885BA6 /* SingletonPattern.h */,
+				A854CF9B1EE7AC5B00885BA6 /* JHSingleton.h */,
+				A854CF9C1EE7AC5B00885BA6 /* JHSingleton.m */,
+				A854CF981EE7A57C00885BA6 /* JHSingletonViewController.h */,
+				A854CF991EE7A57C00885BA6 /* JHSingletonViewController.m */,
+			);
+			name = "单例模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,16 +379,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8526C9B1EE0082C00B8388B /* DuckCall.m in Sources */,
-				A8526C8C1EDEEBDB00B8388B /* Duck.m in Sources */,
+				A87792C71EE111A000CBEDB8 /* FlyWithWings.m in Sources */,
+				A87792C41EE110BC00CBEDB8 /* RubberDuck.m in Sources */,
+				A87792E41EE5784E00CBEDB8 /* JHTableViewDelegate.m in Sources */,
+				A87792BB1EE1100100CBEDB8 /* Duck.m in Sources */,
+				A87792C11EE1108800CBEDB8 /* MallardDuck.m in Sources */,
 				A8526C5B1EDEE91800B8388B /* ViewController.m in Sources */,
+				A87792D31EE1437200CBEDB8 /* FlyWithNoWay.m in Sources */,
+				A87792DA1EE562B800CBEDB8 /* JHStrategyViewController.m in Sources */,
+				A87792D71EE54F6D00CBEDB8 /* JHCollectionViewCell.m in Sources */,
+				A87792CA1EE111BD00CBEDB8 /* FlyWithRocketPower.m in Sources */,
 				A8526C581EDEE91800B8388B /* AppDelegate.m in Sources */,
 				A8526C611EDEE91800B8388B /* JHDesignPattern.xcdatamodeld in Sources */,
-				A8526C951EDFF79800B8388B /* MallardDuck.m in Sources */,
+				A87792E01EE5775E00CBEDB8 /* JHDelegateViewController.m in Sources */,
+				A854CF9A1EE7A57C00885BA6 /* JHSingletonViewController.m in Sources */,
+				A87792D01EE1161B00CBEDB8 /* DuckCall.m in Sources */,
+				A854CF9D1EE7AC5B00885BA6 /* JHSingleton.m in Sources */,
 				A8526C551EDEE91800B8388B /* main.m in Sources */,
-				A8526C981EE0002300B8388B /* RubberDuck.m in Sources */,
-				A8526C921EDEEC7200B8388B /* QuackBehavior.m in Sources */,
-				A8526C8F1EDEEC3700B8388B /* FlyBehavior.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
