@@ -10,6 +10,7 @@
 #import "JHCollectionViewCell.h"
 #import "JHStrategyViewController.h"
 #import "JHDelegateViewController.h"
+#import "JHSingletonViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -28,7 +29,7 @@ static NSString *const header = @"collectionHeader";
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.dataArray = @[@"策略模式", @"代理模式", @"观察者模式"];
+    self.dataArray = @[@"策略模式", @"代理模式", @"单例模式", @"观察者模式"];
 
     [self createCollectionView];
     
@@ -62,7 +63,7 @@ static NSString *const header = @"collectionHeader";
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 3;
+    return 4;
 }
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
@@ -95,6 +96,12 @@ static NSString *const header = @"collectionHeader";
             JHDelegateViewController *controller = [[JHDelegateViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
+            break;
+        case 2: {
+            JHSingletonViewController *controller = [[JHSingletonViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
             
         default:
             break;

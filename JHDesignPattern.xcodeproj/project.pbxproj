@@ -16,6 +16,8 @@
 		A8526C661EDEE91800B8388B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8526C641EDEE91800B8388B /* LaunchScreen.storyboard */; };
 		A8526C711EDEE91900B8388B /* JHDesignPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C701EDEE91900B8388B /* JHDesignPatternTests.m */; };
 		A8526C7C1EDEE91900B8388B /* JHDesignPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C7B1EDEE91900B8388B /* JHDesignPatternUITests.m */; };
+		A854CF9A1EE7A57C00885BA6 /* JHSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CF991EE7A57C00885BA6 /* JHSingletonViewController.m */; };
+		A854CF9D1EE7AC5B00885BA6 /* JHSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A854CF9C1EE7AC5B00885BA6 /* JHSingleton.m */; };
 		A87792BB1EE1100100CBEDB8 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792BA1EE1100100CBEDB8 /* Duck.m */; };
 		A87792C11EE1108800CBEDB8 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C01EE1108800CBEDB8 /* MallardDuck.m */; };
 		A87792C41EE110BC00CBEDB8 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = A87792C31EE110BC00CBEDB8 /* RubberDuck.m */; };
@@ -64,6 +66,11 @@
 		A8526C771EDEE91900B8388B /* JHDesignPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHDesignPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8526C7B1EDEE91900B8388B /* JHDesignPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHDesignPatternUITests.m; sourceTree = "<group>"; };
 		A8526C7D1EDEE91900B8388B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A854CF971EE7A20F00885BA6 /* SingletonPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPattern.h; sourceTree = "<group>"; };
+		A854CF981EE7A57C00885BA6 /* JHSingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSingletonViewController.h; sourceTree = "<group>"; };
+		A854CF991EE7A57C00885BA6 /* JHSingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSingletonViewController.m; sourceTree = "<group>"; };
+		A854CF9B1EE7AC5B00885BA6 /* JHSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSingleton.h; sourceTree = "<group>"; };
+		A854CF9C1EE7AC5B00885BA6 /* JHSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSingleton.m; sourceTree = "<group>"; };
 		A87792B71EE0110600CBEDB8 /* TheStrategyPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheStrategyPattern.h; sourceTree = "<group>"; };
 		A87792B81EE10FD800CBEDB8 /* FlyBehaviorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyBehaviorInterface.h; sourceTree = "<group>"; };
 		A87792B91EE1100100CBEDB8 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
@@ -230,6 +237,11 @@
 		A87792E51EE65D5400CBEDB8 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A854CF971EE7A20F00885BA6 /* SingletonPattern.h */,
+				A854CF9B1EE7AC5B00885BA6 /* JHSingleton.h */,
+				A854CF9C1EE7AC5B00885BA6 /* JHSingleton.m */,
+				A854CF981EE7A57C00885BA6 /* JHSingletonViewController.h */,
+				A854CF991EE7A57C00885BA6 /* JHSingletonViewController.m */,
 			);
 			name = "单例模式";
 			sourceTree = "<group>";
@@ -380,7 +392,9 @@
 				A8526C581EDEE91800B8388B /* AppDelegate.m in Sources */,
 				A8526C611EDEE91800B8388B /* JHDesignPattern.xcdatamodeld in Sources */,
 				A87792E01EE5775E00CBEDB8 /* JHDelegateViewController.m in Sources */,
+				A854CF9A1EE7A57C00885BA6 /* JHSingletonViewController.m in Sources */,
 				A87792D01EE1161B00CBEDB8 /* DuckCall.m in Sources */,
+				A854CF9D1EE7AC5B00885BA6 /* JHSingleton.m in Sources */,
 				A8526C551EDEE91800B8388B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
