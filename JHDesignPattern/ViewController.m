@@ -103,7 +103,7 @@ static NSString *const header = @"collectionHeader";
             JHSingletonViewController *controller = [[JHSingletonViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
-            break;i
+            break;
         case 3: {
             JHObserverViewController *controller = [[JHObserverViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
