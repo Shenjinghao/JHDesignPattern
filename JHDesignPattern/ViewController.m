@@ -12,6 +12,7 @@
 #import "JHDelegateViewController.h"
 #import "JHSingletonViewController.h"
 #import "JHObserverViewController.h"
+#import "JHDecoratorViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -30,7 +31,7 @@ static NSString *const header = @"collectionHeader";
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.dataArray = @[@"策略模式", @"代理模式", @"单例模式", @"观察者模式"];
+    self.dataArray = @[@"策略模式", @"代理模式", @"单例模式", @"观察者模式", @"装饰者模式"];
 
     [self createCollectionView];
     
@@ -64,7 +65,7 @@ static NSString *const header = @"collectionHeader";
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 4;
+    return self.dataArray.count;
 }
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
@@ -102,9 +103,19 @@ static NSString *const header = @"collectionHeader";
             JHSingletonViewController *controller = [[JHSingletonViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
-            break;
+            break;i
         case 3: {
             JHObserverViewController *controller = [[JHObserverViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 4: {
+            JHDecoratorViewController *controller = [[JHDecoratorViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 5: {
+            JHDecoratorViewController *controller = [[JHDecoratorViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84E850C1EEEBEF200BE3B57 /* JHDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E850B1EEEBEF200BE3B57 /* JHDecoratorViewController.m */; };
+		A850ED9B1EF7E124003E3D3B /* Caculate.m in Sources */ = {isa = PBXBuildFile; fileRef = A850ED9A1EF7E124003E3D3B /* Caculate.m */; };
+		A850ED9E1EF7E334003E3D3B /* BasicWage.m in Sources */ = {isa = PBXBuildFile; fileRef = A850ED9D1EF7E334003E3D3B /* BasicWage.m */; };
+		A850EDA11EF7E3E5003E3D3B /* MonthBonusDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = A850EDA01EF7E3E5003E3D3B /* MonthBonusDecorator.m */; };
+		A850EDA41EF7E46D003E3D3B /* DecoratorCaculate.m in Sources */ = {isa = PBXBuildFile; fileRef = A850EDA31EF7E46D003E3D3B /* DecoratorCaculate.m */; };
+		A850EDA71EF7E6B8003E3D3B /* GroupBonusDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = A850EDA61EF7E6B8003E3D3B /* GroupBonusDecorator.m */; };
 		A8526C551EDEE91800B8388B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C541EDEE91800B8388B /* main.m */; };
 		A8526C581EDEE91800B8388B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C571EDEE91800B8388B /* AppDelegate.m */; };
 		A8526C5B1EDEE91800B8388B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8526C5A1EDEE91800B8388B /* ViewController.m */; };
@@ -52,6 +58,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A84E850A1EEEBEF200BE3B57 /* JHDecoratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDecoratorViewController.h; sourceTree = "<group>"; };
+		A84E850B1EEEBEF200BE3B57 /* JHDecoratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDecoratorViewController.m; sourceTree = "<group>"; };
+		A850ED991EF7E124003E3D3B /* Caculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caculate.h; sourceTree = "<group>"; };
+		A850ED9A1EF7E124003E3D3B /* Caculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caculate.m; sourceTree = "<group>"; };
+		A850ED9C1EF7E334003E3D3B /* BasicWage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicWage.h; sourceTree = "<group>"; };
+		A850ED9D1EF7E334003E3D3B /* BasicWage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicWage.m; sourceTree = "<group>"; };
+		A850ED9F1EF7E3E5003E3D3B /* MonthBonusDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthBonusDecorator.h; sourceTree = "<group>"; };
+		A850EDA01EF7E3E5003E3D3B /* MonthBonusDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthBonusDecorator.m; sourceTree = "<group>"; };
+		A850EDA21EF7E46D003E3D3B /* DecoratorCaculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorCaculate.h; sourceTree = "<group>"; };
+		A850EDA31EF7E46D003E3D3B /* DecoratorCaculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorCaculate.m; sourceTree = "<group>"; };
+		A850EDA51EF7E6B8003E3D3B /* GroupBonusDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupBonusDecorator.h; sourceTree = "<group>"; };
+		A850EDA61EF7E6B8003E3D3B /* GroupBonusDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupBonusDecorator.m; sourceTree = "<group>"; };
 		A8526C501EDEE91800B8388B /* JHDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8526C541EDEE91800B8388B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8526C561EDEE91800B8388B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -132,6 +150,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A84E85091EEEBEAF00BE3B57 /* 装饰者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A84E850A1EEEBEF200BE3B57 /* JHDecoratorViewController.h */,
+				A84E850B1EEEBEF200BE3B57 /* JHDecoratorViewController.m */,
+				A850ED991EF7E124003E3D3B /* Caculate.h */,
+				A850ED9A1EF7E124003E3D3B /* Caculate.m */,
+				A850EDA21EF7E46D003E3D3B /* DecoratorCaculate.h */,
+				A850EDA31EF7E46D003E3D3B /* DecoratorCaculate.m */,
+				A850ED9C1EF7E334003E3D3B /* BasicWage.h */,
+				A850ED9D1EF7E334003E3D3B /* BasicWage.m */,
+				A850ED9F1EF7E3E5003E3D3B /* MonthBonusDecorator.h */,
+				A850EDA01EF7E3E5003E3D3B /* MonthBonusDecorator.m */,
+				A850EDA51EF7E6B8003E3D3B /* GroupBonusDecorator.h */,
+				A850EDA61EF7E6B8003E3D3B /* GroupBonusDecorator.m */,
+			);
+			name = "装饰者模式";
+			sourceTree = "<group>";
+		};
 		A8526C471EDEE91800B8388B = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +192,7 @@
 		A8526C521EDEE91800B8388B /* JHDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				A84E85091EEEBEAF00BE3B57 /* 装饰者模式 */,
 				A87792D41EE18E1700CBEDB8 /* 观察者模式 */,
 				A87792E51EE65D5400CBEDB8 /* 单例模式 */,
 				A87792DC1EE5770700CBEDB8 /* 代理模式 */,
@@ -396,7 +434,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A850EDA41EF7E46D003E3D3B /* DecoratorCaculate.m in Sources */,
+				A850EDA11EF7E3E5003E3D3B /* MonthBonusDecorator.m in Sources */,
 				A87792C71EE111A000CBEDB8 /* FlyWithWings.m in Sources */,
+				A850EDA71EF7E6B8003E3D3B /* GroupBonusDecorator.m in Sources */,
 				A87792C41EE110BC00CBEDB8 /* RubberDuck.m in Sources */,
 				A87792E41EE5784E00CBEDB8 /* JHTableViewDelegate.m in Sources */,
 				A87792BB1EE1100100CBEDB8 /* Duck.m in Sources */,
@@ -411,10 +452,13 @@
 				A8526C581EDEE91800B8388B /* AppDelegate.m in Sources */,
 				A8526C611EDEE91800B8388B /* JHDesignPattern.xcdatamodeld in Sources */,
 				A87792E01EE5775E00CBEDB8 /* JHDelegateViewController.m in Sources */,
+				A850ED9B1EF7E124003E3D3B /* Caculate.m in Sources */,
+				A850ED9E1EF7E334003E3D3B /* BasicWage.m in Sources */,
 				A854CF9A1EE7A57C00885BA6 /* JHSingletonViewController.m in Sources */,
 				A87792D01EE1161B00CBEDB8 /* DuckCall.m in Sources */,
 				A854CF9D1EE7AC5B00885BA6 /* JHSingleton.m in Sources */,
 				A8526C551EDEE91800B8388B /* main.m in Sources */,
+				A84E850C1EEEBEF200BE3B57 /* JHDecoratorViewController.m in Sources */,
 				A854CFAA1EE8307900885BA6 /* Customer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
